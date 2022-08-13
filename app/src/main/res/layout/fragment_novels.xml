@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#636262"
+        android:padding="40dp"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/HarryPotterImage"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:src="@drawable/harrypotter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.033" />
+
+        <ImageView
+            android:id="@+id/HarryPotterFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterTextViewID"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.051" />
+
+        <ImageView
+            android:id="@+id/TheAlchimestFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterTextViewID"
+            app:layout_constraintTop_toBottomOf="@+id/HarryPotterFav"
+            app:layout_constraintVertical_bias="0.089" />
+
+        <ImageView
+            android:id="@+id/InvisibleManFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterTextViewID"
+            app:layout_constraintTop_toBottomOf="@+id/TheAlchimestFav"
+            app:layout_constraintVertical_bias="0.117" />
+
+        <ImageView
+            android:id="@+id/AliceFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterTextViewID"
+            app:layout_constraintTop_toBottomOf="@+id/InvisibleManFav"
+            app:layout_constraintVertical_bias="0.122" />
+
+        <ImageView
+            android:id="@+id/RulesofLoveFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterTextViewID"
+            app:layout_constraintTop_toBottomOf="@+id/AliceFav"
+            app:layout_constraintVertical_bias="0.178" />
+
+        <ImageView
+            android:id="@+id/datebookFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterTextViewID"
+            app:layout_constraintTop_toBottomOf="@+id/RulesofLoveFav"
+            app:layout_constraintVertical_bias="0.312" />
+
+        <ImageView
+            android:id="@+id/DaVinciFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterTextViewID"
+            app:layout_constraintTop_toBottomOf="@+id/datebookFav"
+            app:layout_constraintVertical_bias="0.834" />
+
+        <ImageView
+            android:id="@+id/TheAlchimestImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/thealchimest"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/HarryPotterImage"
+            app:layout_constraintVertical_bias="0.008" />
+
+        <ImageView
+            android:id="@+id/InvisibleManImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/invisibleman"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TheAlchimestImage1"
+            app:layout_constraintVertical_bias="0.014" />
+
+        <ImageView
+            android:id="@+id/AliceImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/alice"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/InvisibleManImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/rulesofloveImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/rulesoflove"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AliceImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/datebookImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/datebook"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rulesofloveImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/DavinciImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/davinci"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/datebookImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/HarryPotterTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="72dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Harry Potter"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterImage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/thealchimestTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="116dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="The Alchimest"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterImage"
+            app:layout_constraintTop_toBottomOf="@+id/HarryPotterTextViewID" />
+
+        <TextView
+            android:id="@+id/invisiblemanTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="116dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Invisible Man"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.015"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterImage"
+            app:layout_constraintTop_toBottomOf="@+id/thealchimestTextViewID" />
+
+        <TextView
+            android:id="@+id/aliceTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="104dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Alice in Wonderland"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterImage"
+            app:layout_constraintTop_toBottomOf="@+id/invisiblemanTextViewID" />
+
+        <TextView
+            android:id="@+id/rulesofloveTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="108dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="40 Rules of Love"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterImage"
+            app:layout_constraintTop_toBottomOf="@+id/aliceTextViewID" />
+
+        <TextView
+            android:id="@+id/DateBookTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="127dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="1984"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterImage"
+            app:layout_constraintTop_toTopOf="@+id/rulesofloveTextViewID" />
+
+        <TextView
+            android:id="@+id/davinciTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="130dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="The Da Vinci Code"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/HarryPotterImage"
+            app:layout_constraintTop_toTopOf="@+id/DateBookTextViewID" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

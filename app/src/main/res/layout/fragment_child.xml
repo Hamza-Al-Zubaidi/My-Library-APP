@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#636262"
+        android:padding="40dp"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/spidermanImage"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:src="@drawable/spiderman"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.035" />
+
+        <ImageView
+            android:id="@+id/spidermanFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.059" />
+
+        <ImageView
+            android:id="@+id/newkidFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spidermanFav"
+            app:layout_constraintVertical_bias="0.092" />
+
+        <ImageView
+            android:id="@+id/aladdinFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/newkidFav"
+            app:layout_constraintVertical_bias="0.117" />
+
+        <ImageView
+            android:id="@+id/first100wordsFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aladdinFav"
+            app:layout_constraintVertical_bias="0.126" />
+
+        <ImageView
+            android:id="@+id/goodnightmoonFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/first100wordsFav"
+            app:layout_constraintVertical_bias="0.174" />
+
+        <ImageView
+            android:id="@+id/sonicFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="23dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/goodnightmoonFav"
+            app:layout_constraintVertical_bias="0.348" />
+
+        <ImageView
+            android:id="@+id/corduroyFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="17dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sonicFav"
+            app:layout_constraintVertical_bias="0.968" />
+
+        <ImageView
+            android:id="@+id/NewKidImage"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/newkid"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spidermanImage"
+            app:layout_constraintVertical_bias="0.008" />
+
+        <ImageView
+            android:id="@+id/AaladdinImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/aladdin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/NewKidImage"
+            app:layout_constraintVertical_bias="0.014" />
+
+        <ImageView
+            android:id="@+id/First100WordsImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/first100words"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AaladdinImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/GoodNightMoonImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/goodnightmoon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/First100WordsImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/SonicImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sonic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GoodNightMoonImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/CurduroyImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/curdory"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SonicImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/SpiderTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Spider Man"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.195"
+            app:layout_constraintStart_toEndOf="@+id/spidermanImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.081" />
+
+        <TextView
+            android:id="@+id/newkidTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="New Kid"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.139"
+            app:layout_constraintStart_toEndOf="@+id/spidermanImage"
+            app:layout_constraintTop_toBottomOf="@+id/SpiderTextViewID"
+            app:layout_constraintVertical_bias="0.145" />
+
+        <TextView
+            android:id="@+id/aladdinTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-7dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Aladdin"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.193"
+            app:layout_constraintStart_toEndOf="@+id/spidermanImage"
+            app:layout_constraintTop_toBottomOf="@+id/newkidTextViewID"
+            app:layout_constraintVertical_bias="0.171" />
+
+        <TextView
+            android:id="@+id/firstwordsTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="First 100 Words"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintStart_toEndOf="@+id/spidermanImage"
+            app:layout_constraintTop_toBottomOf="@+id/aladdinTextViewID"
+            app:layout_constraintVertical_bias="0.199" />
+
+        <TextView
+            android:id="@+id/goodnightmoonTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Good Night Moon"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.265"
+            app:layout_constraintStart_toEndOf="@+id/spidermanImage"
+            app:layout_constraintTop_toBottomOf="@+id/firstwordsTextViewID"
+            app:layout_constraintVertical_bias="0.257" />
+
+        <TextView
+            android:id="@+id/sonicTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-13dp"
+            android:layout_marginBottom="10dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Sonic"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.205"
+            app:layout_constraintStart_toEndOf="@+id/spidermanImage"
+            app:layout_constraintTop_toBottomOf="@+id/goodnightmoonTextViewID"
+            app:layout_constraintVertical_bias="0.409" />
+
+        <TextView
+            android:id="@+id/corduroyTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginBottom="10dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Corduroy"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toEndOf="@+id/spidermanImage"
+            app:layout_constraintTop_toBottomOf="@+id/sonicTextViewID"
+            app:layout_constraintVertical_bias="0.753" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

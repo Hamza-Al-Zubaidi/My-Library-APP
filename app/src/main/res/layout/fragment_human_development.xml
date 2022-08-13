@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#636262"
+        android:padding="40dp"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/rdadImage"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:src="@drawable/rdad"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.01" />
+
+        <ImageView
+            android:id="@+id/rdadFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.042" />
+
+        <ImageView
+            android:id="@+id/AttentionRevolutionFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rdadFav"
+            app:layout_constraintVertical_bias="0.082" />
+
+        <ImageView
+            android:id="@+id/LawsofPowerFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AttentionRevolutionFav"
+            app:layout_constraintVertical_bias="0.096" />
+
+        <ImageView
+            android:id="@+id/PowerofThinkingFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LawsofPowerFav"
+            app:layout_constraintVertical_bias="0.118" />
+
+        <ImageView
+            android:id="@+id/ThePowerofNowFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PowerofThinkingFav"
+            app:layout_constraintVertical_bias="0.175" />
+
+        <ImageView
+            android:id="@+id/WholeNewMindFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ThePowerofNowFav"
+            app:layout_constraintVertical_bias="0.365" />
+
+        <ImageView
+            android:id="@+id/TimeManagementFav"
+            android:layout_width="40dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/emptyheart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ThePowerofNowFav"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/AttentionRevolutionImage"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/attentionrevolution"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rdadImage"
+            app:layout_constraintVertical_bias="0.008" />
+
+        <ImageView
+            android:id="@+id/LawsofPowerImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/lawsofpower"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AttentionRevolutionImage"
+            app:layout_constraintVertical_bias="0.014" />
+
+        <ImageView
+            android:id="@+id/PowerofThinkingImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/powerofthinking"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LawsofPowerImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/ThePowerofNowImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/thepowerofnow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PowerofThinkingImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/WholeNewMindImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/wholenewmind"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ThePowerofNowImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/TimeManagementImage1"
+            android:layout_width="65dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/timemanagement"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/WholeNewMindImage1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/richdadTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Rich Dad &amp; Poor Dad"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintStart_toEndOf="@+id/rdadImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.067" />
+
+        <TextView
+            android:id="@+id/attentionrevolutionTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Attention Revolution"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toEndOf="@+id/rdadImage"
+            app:layout_constraintTop_toBottomOf="@+id/richdadTextViewID"
+            app:layout_constraintVertical_bias="0.144" />
+
+        <TextView
+            android:id="@+id/lawsofpowerTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="20dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Laws of Power"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.218"
+            app:layout_constraintStart_toEndOf="@+id/rdadImage"
+            app:layout_constraintTop_toBottomOf="@+id/attentionrevolutionTextViewID"
+            app:layout_constraintVertical_bias="0.171" />
+
+        <TextView
+            android:id="@+id/thepowerofnowTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="The Power of Now"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.298"
+            app:layout_constraintStart_toEndOf="@+id/rdadImage"
+            app:layout_constraintTop_toBottomOf="@+id/thepowerofthinkingTextViewID"
+            app:layout_constraintVertical_bias="0.278" />
+
+        <TextView
+            android:id="@+id/wholenewmindTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="20dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Whole New Mind"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.256"
+            app:layout_constraintStart_toEndOf="@+id/rdadImage"
+            app:layout_constraintTop_toBottomOf="@+id/thepowerofnowTextViewID"
+            app:layout_constraintVertical_bias="0.436" />
+
+        <TextView
+            android:id="@+id/timemanagementTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginBottom="15dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Time Management"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toEndOf="@+id/rdadImage"
+            app:layout_constraintTop_toBottomOf="@+id/wholenewmindTextViewID"
+            app:layout_constraintVertical_bias="0.827" />
+
+        <TextView
+            android:id="@+id/thepowerofthinkingTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Power of Thinking"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.253"
+            app:layout_constraintStart_toEndOf="@+id/rdadImage"
+            app:layout_constraintTop_toBottomOf="@+id/lawsofpowerTextViewID"
+            app:layout_constraintVertical_bias="0.216" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
